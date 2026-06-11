@@ -29,7 +29,7 @@ export default {
     const { name } = await req.json();
 
     return Response.json({
-      message: `Hello ${name}!`,
+      message: `Hello ${name}! This is a test from GitHub Actions!`,
     });
   }),
 };
